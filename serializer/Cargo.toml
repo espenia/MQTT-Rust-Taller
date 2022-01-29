@@ -1,0 +1,16 @@
+[package]
+name = "serializer"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+name = "serializer"
+path = "./src/lib.rs"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tracing = "0.1"
+tracing-subscriber = "0.3.2"
+tracing-appender= "0.2"
